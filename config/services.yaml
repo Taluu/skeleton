@@ -27,5 +27,6 @@ services:
     # please note that last definitions always *replace* previous ones
 
     Omnipay\Stripe\Gateway:
+        autowire: false
         factory: 'Omnipay\Omnipay::create'
         arguments: ['Stripe']
