@@ -1,5 +1,5 @@
 framework:
-    secret: '%env(APP_SECRET)%'
+    #secret: '%env(APP_SECRET)%' # commented out, to trigger the "bug"
     #default_locale: en
     #csrf_protection: true
     #http_method_override: true
